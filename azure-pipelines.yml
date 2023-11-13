@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: logalocalagentpool
+  vmImage: mani-pc
 
 steps:
 - task: Maven@3
