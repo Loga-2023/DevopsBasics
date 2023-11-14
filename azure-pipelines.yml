@@ -6,8 +6,8 @@
 trigger:
 - master
 
-pool:
-  vmImage: MANI-PC
+pool: logalocalagentpool
+  
 
 steps:
 - task: Maven@3
